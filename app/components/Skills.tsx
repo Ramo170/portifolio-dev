@@ -11,6 +11,7 @@ export default function Skills() {
     "REST APIs",
     "Git / Github",
     "Figma",
+    "PostgreSQL",
   ];
 
   return (
