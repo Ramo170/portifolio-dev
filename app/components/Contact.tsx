@@ -40,7 +40,7 @@ export default function Contact() {
             className="flex items-center gap-2 w-max hover:text-gray-400 transition text-black"
           >
             <FaLinkedin size={22} />
-            linkedin.com/in/icaro-bihum
+            linkedin.com/in/ícaro-bihum
           </a>
         </div>
       </div>

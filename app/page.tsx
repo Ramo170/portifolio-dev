@@ -88,6 +88,7 @@ export default function Home() {
               description={project.description}
               techs={project.techs}
               github={project.github}
+              demo={project.demo}
             />
           ))}
         </div>

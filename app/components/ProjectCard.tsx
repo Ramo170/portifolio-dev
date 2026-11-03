@@ -1,10 +1,11 @@
-import { FaGithub } from "react-icons/fa";
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 type ProjectProps = {
   title: string;
   description: string;
   techs: string[];
   github: string;
+  demo?: string;
 };
 
 export default function ProjectCard({
@@ -12,6 +13,7 @@ export default function ProjectCard({
   description,
   techs,
   github,
+  demo,
 }: ProjectProps) {
   return (
     <div className="bg-zinc-100 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-xl p-6 hover:bg-zinc-200 dark:hover:bg-zinc-800 transition space-y-4">
@@ -29,13 +31,28 @@ export default function ProjectCard({
           </span>
         ))}
       </div>
-      <a
-        href={github}
-        target="_blank"
-        className="text-black dark:text-lime-50 hover:underline flex w-max"
-      >
-        <FaGithub size={25} />
-      </a>
+      <div className="flex items-center gap-4">
+        <a
+          href={github}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={`Código de ${title} no GitHub`}
+          className="text-black dark:text-lime-50 hover:underline flex w-max"
+        >
+          <FaGithub size={25} />
+        </a>
+        {demo && (
+          <a
+            href={demo}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-sm font-semibold text-black dark:text-lime-50 hover:underline"
+          >
+            <FaExternalLinkAlt size={14} />
+            Ver demo
+          </a>
+        )}
+      </div>
     </div>
   );
 }
