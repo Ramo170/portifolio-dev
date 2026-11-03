@@ -9,19 +9,43 @@ export default function Experience() {
       <div className="space-y-12">
         {/* ITEM 1 */}
         <div className="grid md:grid-cols-[150px_1fr] gap-6 group">
-          <span className="text-zinc-500">2026</span>
+          <span className="text-zinc-500">Junho de 2025 - Outubro de 2026</span>
           <div className="transition duration-300 p-6 rounded-lg hover:bg-zinc-100 dark:hover:bg-zinc-800">
             <h3 className="text-xl font-semibold text-black dark:text-white transition-colors">
-              Desenvolvimento de Software - Estoque Api
+              Curso técnico em análise e desenvolvimento de sistemas
             </h3>
             <p className="text-yellow-600 dark:text-yellow-400 font-medium">
-              Conta simples
+              Senai Pernambuco 
             </p>
             <p className="text-zinc-600 dark:text-zinc-400 mt-3 leading-relaxed">
               Desenvolvimento do Backend e frontend de uma API RESTful para
               gerenciamento de estoque, utilizando Node.js, Express e MySQL. A
               API permite operações CRUD para produtos, categorias e
               fornecedores, além de autenticação JWT para segurança.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+            <div className="space-y-12">
+        {/* ITEM 2 */}
+        <div className="grid md:grid-cols-[150px_1fr] gap-6 group">
+          <span className="text-zinc-500">Novembro de 2025 - Em andamento</span>
+          <div className="transition duration-300 p-6 rounded-lg hover:bg-zinc-100 dark:hover:bg-zinc-800">
+            <h3 className="text-xl font-semibold text-black dark:text-white transition-colors">
+              Curso programador full stack
+            </h3>
+            <p className="text-yellow-600 dark:text-yellow-400 font-medium">
+              Senai São Paulo
+            </p>
+            <p className="text-zinc-600 dark:text-zinc-400 mt-3 leading-relaxed">
+              Formação voltada ao desenvolvimento de aplicações web completas,
+              do front-end ao back-end. Construo interfaces com HTML, CSS,
+              JavaScript e React, e APIs REST com Node.js e Express, integradas
+              a bancos de dados relacionais (MySQL). Também aplico versionamento
+              com Git/GitHub e metodologias ágeis em projetos práticos em
+              equipe.
             </p>
           </div>
         </div>
