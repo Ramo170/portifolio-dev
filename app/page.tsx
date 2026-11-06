@@ -37,10 +37,10 @@ export default function Home() {
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <a
-              href=""
+              href="#contato"
               className="
-      px-6 py-3 
-      bg-lime-400 
+      px-6 py-3
+      bg-lime-400
       text-black 
       font-semibold 
       rounded-lg 
@@ -50,7 +50,7 @@ export default function Home() {
               Falar comigo
             </a>
             <a
-              href=""
+              href="#projetos"
               className="px-6 py-3 border border-zinc-700 text-black dark:text-black dark:bg-zinc-50 rounded-lg hover:bg-zinc-100 dark:hover:bg-zinc-200 transition-colors"
             >
               Ver projetos
@@ -96,19 +96,19 @@ export default function Home() {
 
       <section
         className="max-w-5x1 ml-25 mx-auto px-6 text-black dark:text-white transition-colors"
-        id="skills "
+        id="skills"
       >
         <Skills />
       </section>
 
       <section
         className="max-w-5x1 ml-25 mx-auto px-6 text-black dark:text-white transition-colors"
-        id="experience"
+        id="experiencia"
       >
         <Experience />
       </section>
 
-      <section id="contact">
+      <section id="contato">
         <Contact />
       </section>
 

@@ -18,10 +18,13 @@ export default function Experience() {
               Senai Pernambuco 
             </p>
             <p className="text-zinc-600 dark:text-zinc-400 mt-3 leading-relaxed">
-              Desenvolvimento do Backend e frontend de uma API RESTful para
-              gerenciamento de estoque, utilizando Node.js, Express e MySQL. A
-              API permite operações CRUD para produtos, categorias e
-              fornecedores, além de autenticação JWT para segurança.
+              Formação técnica com base em lógica de programação, orientação a
+              objetos, modelagem de banco de dados e desenvolvimento web.
+              Desenvolvi APIs REST em Java com Spring Boot e em Node.js com
+              Express, integradas a bancos MySQL, além de aplicações front-end
+              que consomem essas APIs. Também apliquei testes automatizados,
+              versionamento com Git e boas práticas de código em projetos
+              práticos.
             </p>
           </div>
         </div>
